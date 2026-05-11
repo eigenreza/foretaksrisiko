@@ -1,0 +1,23 @@
+snapshot_id,nace_section,section_label_no,section_label_en,n
+2,A,"Jordbruk, skogbruk og fiske","Agriculture, forestry and fishing",7003
+2,B,Bergverksdrift og utvinning,Mining and quarrying,1286
+2,C,Industri,Manufacturing,14004
+2,D,"Elektrisitet, gass og damp","Electricity, gas and steam",1971
+2,E,"Vann, avløp og renovasjon",Water supply and waste,944
+2,F,Bygge- og anleggsvirksomhet,Construction,37368
+2,G,Varehandel,Wholesale and retail trade,44383
+2,H,Transport og lagring,Transportation and storage,11857
+2,I,Overnatting og servering,Accommodation and food service,13929
+2,J,Utgivelse og kringkasting,Publishing and broadcasting,5863
+2,K,Telekommunikasjon og IT-tjenester,Telecommunication and IT services,19981
+2,L,Finansiell tjenesteyting,Financial and insurance activities,15570
+2,M,Eiendomsvirksomhet,Real estate activities,96728
+2,N,"Faglig, vitenskapelig og teknisk tjenesteyting","Professional, scientific and technical",52318
+2,O,Forretningsmessig tjenesteyting,Administrative and support services,16459
+2,P,Offentlig administrasjon og forsvar,Public administration and defence,75
+2,Q,Undervisning,Education,7549
+2,R,Helse- og sosialtjenester,Human health and social work,12164
+2,S,"Kultur, idrett og fritid","Arts, sports and recreation",7321
+2,T,Annen tjenesteyting,Other service activities,10777
+2,U,Lønnet arbeid i private husholdninger,Households as employers,536
+2,missing,Ukjent,Unknown,56010

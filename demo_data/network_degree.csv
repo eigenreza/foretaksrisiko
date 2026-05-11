@@ -1,0 +1,17 @@
+kind,size_bin,bin_order,n_companies
+auditor,5-9,2,61
+auditor,10-19,3,232
+auditor,20-49,4,1875
+auditor,50-99,5,5834
+auditor,100-199,6,8245
+auditor,200-499,7,28440
+auditor,500+,8,88256
+accountant,1,0,53
+accountant,2-4,1,291
+accountant,5-9,2,1029
+accountant,10-19,3,3760
+accountant,20-49,4,18253
+accountant,50-99,5,36262
+accountant,100-199,6,48052
+accountant,200-499,7,54499
+accountant,500+,8,88526

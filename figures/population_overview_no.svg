@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="396pt" viewBox="0 0 720 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 720 396 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 198.01375 357.197891 
+L 371.10526 357.197891 
+L 371.10526 45.08 
+L 198.01375 45.08 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 198.01375 357.197891 
+L 198.01375 45.08 
+" clip-path="url(#pc72d57a870)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m4a7c222095" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4a7c222095" x="198.01375" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="198.01375" y="370.276016" transform="rotate(-0 198.01375 370.276016)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 232.098825 357.197891 
+L 232.098825 45.08 
+" clip-path="url(#pc72d57a870)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4a7c222095" x="232.098825" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="232.098825" y="370.276016" transform="rotate(-0 232.098825 370.276016)">20 000</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 266.1839 357.197891 
+L 266.1839 45.08 
+" clip-path="url(#pc72d57a870)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4a7c222095" x="266.1839" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="266.1839" y="370.276016" transform="rotate(-0 266.1839 370.276016)">40 000</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 300.268975 357.197891 
+L 300.268975 45.08 
+" clip-path="url(#pc72d57a870)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m4a7c222095" x="300.268975" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="300.268975" y="370.276016" transform="rotate(-0 300.268975 370.276016)">60 000</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 334.35405 357.197891 
+L 334.35405 45.08 
+" clip-path="url(#pc72d57a870)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m4a7c222095" x="334.35405" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="334.35405" y="370.276016" transform="rotate(-0 334.35405 370.276016)">80 000</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 368.439125 357.197891 
+L 368.439125 45.08 
+" clip-path="url(#pc72d57a870)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m4a7c222095" x="368.439125" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="368.439125" y="370.276016" transform="rotate(-0 368.439125 370.276016)">100 000</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="284.559505" y="383.036484" transform="rotate(-0 284.559505 383.036484)">Antall selskap</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <defs>
+       <path id="m7631e7fd8a" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="337.80441" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="340.843785" transform="rotate(-0 191.01375 340.843785)">Offentlig administrasjon og forsvar</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="324.788652" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="327.828027" transform="rotate(-0 191.01375 327.828027)">Lønnet arbeid i private husholdninger</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="311.772893" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="314.812268" transform="rotate(-0 191.01375 314.812268)">Vann, avløp og renovasjon</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="298.757135" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="301.79651" transform="rotate(-0 191.01375 301.79651)">Bergverksdrift og utvinning</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="285.741376" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="288.780751" transform="rotate(-0 191.01375 288.780751)">Elektrisitet, gass og damp</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="272.725617" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="275.764992" transform="rotate(-0 191.01375 275.764992)">Utgivelse og kringkasting</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="259.709859" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="262.749234" transform="rotate(-0 191.01375 262.749234)">Jordbruk, skogbruk og fiske</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="246.6941" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="249.733475" transform="rotate(-0 191.01375 249.733475)">Kultur, idrett og fritid</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="233.678342" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="236.717717" transform="rotate(-0 191.01375 236.717717)">Undervisning</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="220.662583" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="223.701958" transform="rotate(-0 191.01375 223.701958)">Annen tjenesteyting</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="207.646825" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="210.6862" transform="rotate(-0 191.01375 210.6862)">Transport og lagring</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="194.631066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="197.670441" transform="rotate(-0 191.01375 197.670441)">Helse- og sosialtjenester</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="181.615307" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="184.654682" transform="rotate(-0 191.01375 184.654682)">Overnatting og servering</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="168.599549" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="171.638924" transform="rotate(-0 191.01375 171.638924)">Industri</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="155.58379" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="158.623165" transform="rotate(-0 191.01375 158.623165)">Finansiell tjenesteyting</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="142.568032" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="145.607407" transform="rotate(-0 191.01375 145.607407)">Forretningsmessig tjenesteyting</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="129.552273" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="132.591648" transform="rotate(-0 191.01375 132.591648)">Telekommunikasjon og IT-tjenester</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="116.536515" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="119.57589" transform="rotate(-0 191.01375 119.57589)">Bygge- og anleggsvirksomhet</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="103.520756" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="106.560131" transform="rotate(-0 191.01375 106.560131)">Varehandel</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="90.504997" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="93.544372" transform="rotate(-0 191.01375 93.544372)">Faglig, vitenskapelig og teknisk tjenesteyting</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="77.489239" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="80.528614" transform="rotate(-0 191.01375 80.528614)">Ukjent</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="198.01375" y="64.47348" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="191.01375" y="67.512855" transform="rotate(-0 191.01375 67.512855)">Eiendomsvirksomhet</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 198.01375 343.010714 
+L 198.141569 343.010714 
+L 198.141569 332.598107 
+L 198.01375 332.598107 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 198.01375 329.994955 
+L 198.92723 329.994955 
+L 198.92723 319.582348 
+L 198.01375 319.582348 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 198.01375 316.979197 
+L 199.622566 316.979197 
+L 199.622566 306.56659 
+L 198.01375 306.56659 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 198.01375 303.963438 
+L 200.20542 303.963438 
+L 200.20542 293.550831 
+L 198.01375 293.550831 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 198.01375 290.947679 
+L 201.372834 290.947679 
+L 201.372834 280.535073 
+L 198.01375 280.535073 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 198.01375 277.931921 
+L 208.00579 277.931921 
+L 208.00579 267.519314 
+L 198.01375 267.519314 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 198.01375 264.916162 
+L 209.948639 264.916162 
+L 209.948639 254.503555 
+L 198.01375 254.503555 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 198.01375 251.900404 
+L 210.490592 251.900404 
+L 210.490592 241.487797 
+L 198.01375 241.487797 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 198.01375 238.884645 
+L 210.879162 238.884645 
+L 210.879162 228.472038 
+L 198.01375 228.472038 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 198.01375 225.868887 
+L 216.380493 225.868887 
+L 216.380493 215.45628 
+L 198.01375 215.45628 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 198.01375 212.853128 
+L 218.221087 212.853128 
+L 218.221087 202.440521 
+L 198.01375 202.440521 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 198.01375 199.837369 
+L 218.744293 199.837369 
+L 218.744293 189.424763 
+L 198.01375 189.424763 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 198.01375 186.821611 
+L 221.752301 186.821611 
+L 221.752301 176.409004 
+L 198.01375 176.409004 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 198.01375 173.805852 
+L 221.88012 173.805852 
+L 221.88012 163.393245 
+L 198.01375 163.393245 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 198.01375 160.790094 
+L 224.548981 160.790094 
+L 224.548981 150.377487 
+L 198.01375 150.377487 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 198.01375 147.774335 
+L 226.064063 147.774335 
+L 226.064063 137.361728 
+L 198.01375 137.361728 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 198.01375 134.758577 
+L 232.066444 134.758577 
+L 232.066444 124.34597 
+L 198.01375 124.34597 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 198.01375 121.742818 
+L 261.698304 121.742818 
+L 261.698304 111.330211 
+L 198.01375 111.330211 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 198.01375 108.727059 
+L 273.653644 108.727059 
+L 273.653644 98.314453 
+L 198.01375 98.314453 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 198.01375 95.711301 
+L 287.176898 95.711301 
+L 287.176898 85.298694 
+L 198.01375 85.298694 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 198.01375 82.695542 
+L 293.469003 82.695542 
+L 293.469003 72.282935 
+L 198.01375 72.282935 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 198.01375 69.679784 
+L 362.862807 69.679784 
+L 362.862807 59.267177 
+L 198.01375 59.267177 
+z
+" clip-path="url(#pc72d57a870)" style="fill: #0072b2; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 198.01375 357.197891 
+L 198.01375 45.08 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 198.01375 357.197891 
+L 371.10526 357.197891 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="284.559505" y="39.08" transform="rotate(-0 284.559505 39.08)">Etter næringshovedområde</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_27">
+    <path d="M 537.18849 357.197891 
+L 710.28 357.197891 
+L 710.28 45.08 
+L 537.18849 45.08 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_35">
+      <path d="M 537.18849 357.197891 
+L 537.18849 45.08 
+" clip-path="url(#p9451aae502)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m4a7c222095" x="537.18849" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="537.18849" y="370.276016" transform="rotate(-0 537.18849 370.276016)">0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_37">
+      <path d="M 576.454159 357.197891 
+L 576.454159 45.08 
+" clip-path="url(#p9451aae502)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m4a7c222095" x="576.454159" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="576.454159" y="370.276016" transform="rotate(-0 576.454159 370.276016)">20 000</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_39">
+      <path d="M 615.719828 357.197891 
+L 615.719828 45.08 
+" clip-path="url(#p9451aae502)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m4a7c222095" x="615.719828" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="615.719828" y="370.276016" transform="rotate(-0 615.719828 370.276016)">40 000</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_41">
+      <path d="M 654.985496 357.197891 
+L 654.985496 45.08 
+" clip-path="url(#p9451aae502)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m4a7c222095" x="654.985496" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="654.985496" y="370.276016" transform="rotate(-0 654.985496 370.276016)">60 000</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_43">
+      <path d="M 694.251165 357.197891 
+L 694.251165 45.08 
+" clip-path="url(#p9451aae502)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #cccccc; stroke-width: 0.6"/>
+     </g>
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m4a7c222095" x="694.251165" y="357.197891" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="694.251165" y="370.276016" transform="rotate(-0 694.251165 370.276016)">80 000</text>
+     </g>
+    </g>
+    <g id="text_36">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="623.734245" y="383.036484" transform="rotate(-0 623.734245 383.036484)">Antall selskap</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_23">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="335.827333" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="338.866708" transform="rotate(-0 530.18849 338.866708)">Svalbard</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="317.868881" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="321.068256" transform="rotate(-0 530.18849 321.068256)">Finnmark - Finnmárku - Finmarkku</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="299.91043" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="302.949492" transform="rotate(-0 530.18849 302.949492)">Troms - Romsa - Tromssa</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="281.951978" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="284.991353" transform="rotate(-0 530.18849 284.991353)">Telemark</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="263.993526" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="267.192901" transform="rotate(-0 530.18849 267.192901)">Nordland - Nordlánnda</text>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_50">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="246.035075" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="249.07445" transform="rotate(-0 530.18849 249.07445)">Møre og Romsdal</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_51">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="228.076623" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_43">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="231.121623" transform="rotate(-0 530.18849 231.121623)">Østfold</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_52">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="210.118171" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_44">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="213.157546" transform="rotate(-0 530.18849 213.157546)">Vestfold</text>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_53">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="192.159719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_45">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="195.199094" transform="rotate(-0 530.18849 195.199094)">Buskerud</text>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_54">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="174.201268" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_46">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="177.240643" transform="rotate(-0 530.18849 177.240643)">Innlandet</text>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_55">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="156.242816" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="159.282191" transform="rotate(-0 530.18849 159.282191)">Agder</text>
+     </g>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_56">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="138.284364" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="141.323739" transform="rotate(-0 530.18849 141.323739)">Trøndelag - Trööndelage</text>
+     </g>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_57">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="120.325913" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="123.365288" transform="rotate(-0 530.18849 123.365288)">Rogaland</text>
+     </g>
+    </g>
+    <g id="ytick_36">
+     <g id="line2d_58">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="102.367461" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="105.406836" transform="rotate(-0 530.18849 105.406836)">Vestland</text>
+     </g>
+    </g>
+    <g id="ytick_37">
+     <g id="line2d_59">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="84.409009" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="87.448384" transform="rotate(-0 530.18849 87.448384)">Akershus</text>
+     </g>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_60">
+      <g>
+       <use xlink:href="#m7631e7fd8a" x="537.18849" y="66.450558" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_52">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end" x="530.18849" y="69.489933" transform="rotate(-0 530.18849 69.489933)">Oslo - Oslove</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_28">
+    <path d="M 537.18849 343.010714 
+L 537.769622 343.010714 
+L 537.769622 328.643952 
+L 537.18849 328.643952 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 537.18849 325.052262 
+L 549.490424 325.052262 
+L 549.490424 310.685501 
+L 537.18849 310.685501 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 537.18849 307.09381 
+L 559.275429 307.09381 
+L 559.275429 292.727049 
+L 537.18849 292.727049 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 537.18849 289.135359 
+L 561.429151 289.135359 
+L 561.429151 274.768597 
+L 537.18849 274.768597 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 537.18849 271.176907 
+L 569.725987 271.176907 
+L 569.725987 256.810146 
+L 537.18849 256.810146 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 537.18849 253.218455 
+L 575.009182 253.218455 
+L 575.009182 238.851694 
+L 537.18849 238.851694 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 537.18849 235.260004 
+L 576.546433 235.260004 
+L 576.546433 220.893242 
+L 537.18849 220.893242 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_35">
+    <path d="M 537.18849 217.301552 
+L 576.817366 217.301552 
+L 576.817366 202.93479 
+L 537.18849 202.93479 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_36">
+    <path d="M 537.18849 199.3431 
+L 577.759742 199.3431 
+L 577.759742 184.976339 
+L 537.18849 184.976339 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_37">
+    <path d="M 537.18849 181.384648 
+L 581.929756 181.384648 
+L 581.929756 167.017887 
+L 537.18849 167.017887 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_38">
+    <path d="M 537.18849 163.426197 
+L 586.724095 163.426197 
+L 586.724095 149.059435 
+L 537.18849 149.059435 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_39">
+    <path d="M 537.18849 145.467745 
+L 601.301474 145.467745 
+L 601.301474 131.100984 
+L 537.18849 131.100984 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_40">
+    <path d="M 537.18849 127.509293 
+L 611.883572 127.509293 
+L 611.883572 113.142532 
+L 537.18849 113.142532 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_41">
+    <path d="M 537.18849 109.550842 
+L 633.460057 109.550842 
+L 633.460057 95.18408 
+L 537.18849 95.18408 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_42">
+    <path d="M 537.18849 91.59239 
+L 646.107529 91.59239 
+L 646.107529 77.225629 
+L 537.18849 77.225629 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_43">
+    <path d="M 537.18849 73.633938 
+L 702.037547 73.633938 
+L 702.037547 59.267177 
+L 537.18849 59.267177 
+z
+" clip-path="url(#p9451aae502)" style="fill: #e69f00; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_44">
+    <path d="M 537.18849 357.197891 
+L 537.18849 45.08 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_45">
+    <path d="M 537.18849 357.197891 
+L 710.28 357.197891 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_53">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="623.734245" y="39.08" transform="rotate(-0 623.734245 39.08)">Etter fylke</text>
+   </g>
+  </g>
+  <g id="text_54">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="360" y="16.278281" transform="rotate(-0 360 16.278281)">Populasjonen av aksjeselskap</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc72d57a870">
+   <rect x="198.01375" y="45.08" width="173.09151" height="312.117891"/>
+  </clipPath>
+  <clipPath id="p9451aae502">
+   <rect x="537.18849" y="45.08" width="173.09151" height="312.117891"/>
+  </clipPath>
+ </defs>
+</svg>

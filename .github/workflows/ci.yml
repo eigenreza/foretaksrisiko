@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: uv sync --all-extras
+      - name: Lint
+        run: uv run ruff check src tests scripts
+      - name: Format
+        run: uv run ruff format --check src tests scripts
+      - name: Style scan
+        run: uv run python scripts/style_scan.py
+      - name: Privacy scan
+        run: uv run python scripts/privacy_scan.py
+      - name: Tests
+        run: uv run pytest -q

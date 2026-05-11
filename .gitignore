@@ -1,0 +1,48 @@
+# Internal brief and tool folders (never committed)
+BRIEF.md
+.claude/
+.databricks/
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+
+# Local data, logs and run records (may contain dates and per-company tables)
+data/
+logs/
+mlruns/
+scores/
+*.parquet
+!demo_data/**/*.parquet
+*.duckdb
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv*/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Spark and Delta scratch
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
