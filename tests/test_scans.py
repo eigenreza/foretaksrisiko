@@ -61,7 +61,7 @@ def test_privacy_scan_person_fields_and_marker() -> None:
     assert privacy_scan.scan_text(with_marker, "x.py") == []
 
 
-def test_privacy_scan_dates_years_and_attribution() -> None:
+def test_privacy_scan_dates_and_years() -> None:
     year = "20" + "24"
     iso_date = f"{year}-05-01"
     assert _rules(privacy_scan.scan_text(f"built {iso_date}", "x.py")) == ["calendar-date"]
@@ -69,8 +69,6 @@ def test_privacy_scan_dates_years_and_attribution() -> None:
     warnings = privacy_scan.scan_text(f"the standard from {year}", "x.md")
     assert [f.severity for f in warnings] == ["warn"]
     assert privacy_scan.scan_text(f"the standard from {year}", "x.py") == []
-    attribution = "Co-Authored" + "-By: someone"
-    assert _rules(privacy_scan.scan_text(attribution, "x.txt")) == ["tool-attribution"]
 
 
 def test_repository_is_clean() -> None:

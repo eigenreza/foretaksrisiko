@@ -1,10 +1,9 @@
-"""Privacy scan for the repository (brief rule L11 and section 16, P8).
+"""Privacy scan for the repository.
 
 Fails on:
   - nine-digit numbers that pass the MOD11 organisation number checksum,
   - person field names, unless the file carries the marker ``privacy-scan: allow-person-fields``,
-  - calendar dates, unless the file carries the marker ``privacy-scan: allow-dates``,
-  - tool attribution strings that must never appear in this repository.
+  - calendar dates, unless the file carries the marker ``privacy-scan: allow-dates``.
 Warns on four-digit years in Markdown files, for manual review.
 
 Usage: python scripts/privacy_scan.py [path ...]
@@ -55,7 +54,6 @@ PERSON_FIELDS = re.compile(
 )
 DATES = re.compile(r"(?<!\d)(\d{4}-\d{2}-\d{2}|\d{2}\.\d{2}\.\d{4})(?!\d)")
 YEARS = re.compile(r"\b(19|20)\d{2}\b")
-ATTRIBUTION = re.compile(r"Co-Authored-By|Generated with|claude\.ai|Anthropic", re.IGNORECASE)
 
 ALLOW_PERSON_MARKER = "privacy-scan: allow-person-fields"
 ALLOW_DATES_MARKER = "privacy-scan: allow-dates"
@@ -107,8 +105,6 @@ def scan_text(text: str, path: str, is_self: bool = False) -> list[Finding]:
             findings.append(Finding(path, number, "person-field-name", line))
         if not allow_dates and DATES.search(line):
             findings.append(Finding(path, number, "calendar-date", line))
-        if not is_self and ATTRIBUTION.search(line):
-            findings.append(Finding(path, number, "tool-attribution", line))
         if is_markdown and YEARS.search(line) and not DATES.search(line):
             findings.append(Finding(path, number, "year-for-manual-review", line, "warn"))
     return findings

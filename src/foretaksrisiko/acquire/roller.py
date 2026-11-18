@@ -62,7 +62,7 @@ ROLLER_COUNTS_SCHEMA = pa.schema(
     ]
 )
 
-# Organisation-to-organisation links, both ends inside the kept AS and ASA population (rule L4).
+# Organisation-to-organisation links, both ends inside the kept AS and ASA population.
 ROLLER_LINKS_SCHEMA = pa.schema(
     [
         ("organisasjonsnummer", pa.string()),

@@ -149,7 +149,7 @@ class ModelConfig(BaseModel):
 
 class QualityConfig(BaseModel):
     # Severity of the organisation number checksum check. Tests lower it to "warn" because
-    # synthetic fixtures use numbers that fail the checksum on purpose (brief rule L7).
+    # synthetic fixtures use numbers that fail the checksum on purpose.
     mod11_severity: str = "error"
     min_nace_section_share: float = 0.85
     min_fylke_coverage: float = 0.99
