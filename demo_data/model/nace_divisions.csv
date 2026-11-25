@@ -1,0 +1,88 @@
+code,section,name_no,name_en
+01,A,"Jordbruk og tjenester tilknyttet jordbruk, jakt og viltstell","Crop and animal production, hunting and related service activities"
+02,A,Skogbruk og tjenester tilknyttet skogbruk,Forestry and logging
+03,A,"Fiske, fangst og akvakultur",Fishing and aquaculture
+05,B,Bryting av steinkull og brunkull,Mining of coal and lignite
+06,B,Utvinning av råolje og naturgass,Extraction of crude petroleum and natural gas
+07,B,Bryting av metallholdig malm,Mining of metal ores
+08,B,Bryting og bergverksdrift ellers,Other mining and quarrying
+09,B,Tjenester tilknyttet bergverksdrift og utvinning,Mining support service activities
+10,C,Produksjon av nærings- og nytelsesmidler,Manufacture of food products
+11,C,Produksjon av drikkevarer,Manufacture of beverages
+12,C,Produksjon av tobakksvarer,Manufacture of tobacco products
+13,C,Produksjon av tekstiler,Manufacture of textiles
+14,C,Produksjon av klær,Manufacture of wearing apparel
+15,C,Produksjon av lær og andre relaterte produkter,Manufacture of leather and related products of other materials
+16,C,"Produksjon av trelast og varer av tre, kork, strå og flettematerialer, unntatt møbler","Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"
+17,C,Produksjon av papir og papirvarer,Manufacture of paper and paper products
+18,C,Trykking og reproduksjon av innspilte opptak,Printing and reproduction of recorded media
+19,C,Produksjon av kullprodukter og raffinerte petroleumsprodukter,Manufacture of coke and refined petroleum products
+20,C,Produksjon av kjemikalier og kjemiske produkter,Manufacture of chemicals and chemical products
+21,C,Produksjon av farmasøytiske råvarer og preparater,Manufacture of basic pharmaceutical products and pharmaceutical preparations
+22,C,Produksjon av gummi- og plastprodukter,Manufacture of rubber and plastic products
+23,C,Produksjon av andre ikke-metalliske mineralprodukter,Manufacture of other non-metallic mineral products
+24,C,Produksjon av metaller,Manufacture of basic metals
+25,C,"Produksjon av metallvarer, unntatt maskiner og utstyr","Manufacture of fabricated metal products, except machinery and equipment"
+26,C,Produksjon av datamaskiner og elektroniske og optiske produkter,"Manufacture of computer, electronic and optical products"
+27,C,Produksjon av elektrisk utstyr,Manufacture of electrical equipment
+28,C,Produksjon av maskiner og utstyr ikke nevnt annet sted,Manufacture of machinery and equipment n.e.c.
+29,C,Produksjon av motorvogner og tilhengere,"Manufacture of motor vehicles, trailers and semi-trailers"
+30,C,Produksjon av andre transportmidler,Manufacture of other transport equipment
+31,C,Produksjon av møbler,Manufacture of furniture
+32,C,Annen industriproduksjon,Other manufacturing
+33,C,"Reparasjon, vedlikehold og installasjon av maskiner og utstyr","Repair, maintenance and installation of machinery and equipment"
+35,D,"Forsyning av elektrisitet, gass, damp og kjøleluft","Electricity, gas, steam and air conditioning supply"
+36,E,"Uttak fra kilde, rensing og distribusjon av vann","Water collection, treatment and supply"
+37,E,Oppsamling og behandling av avløpsvann,Sewerage
+38,E,"Innsamling, gjenvinning og behandling av avfall","Waste collection, recovery and disposal activities"
+39,E,"Miljøutbedring, opprydding og lignende aktivitet",Remediation activities and other waste management service activities
+41,F,Oppføring av bygninger,Construction of residential and non-residential buildings
+42,F,Anleggsvirksomhet,Civil engineering
+43,F,Spesialisert bygge- og anleggsvirksomhet,Specialised construction activities
+46,G,Engroshandel,Wholesale trade
+47,G,Detaljhandel,Retail trade
+49,H,Landtransport og rørtransport,Land transport and transport via pipelines
+50,H,Sjøfart,Water transport
+51,H,Lufttransport,Air transport
+52,H,Lagring og andre tjenester tilknyttet transport,"Warehousing, storage and support activities for transportation"
+53,H,Post- og budtjenester,Postal and courier activities
+55,I,Overnattingsvirksomhet,Accommodation
+56,I,Serveringsvirksomhet,Food and beverage service activities
+58,J,Utgivelsesvirksomhet,Publishing activities
+59,J,"Film-, video- og fjernsynsprogramproduksjon, utgivelse av musikk- og lydopptak","Motion picture, video and television programme production, sound recording and music publishing activities"
+60,J,"Radio- og fjernsynsprogramvirksomhet, kringkasting, nyhetsbyråvirksomhet og distribuering av annet innhold","Programming, broadcasting, news agency and other content distribution activities"
+61,K,Telekommunikasjon,Telecommunication
+62,K,"Dataprogrammering, konsulentvirksomhet og andre tjenester tilknyttet informasjonsteknologi","Computer programming, consultancy and related activities"
+63,K,"Datainfrastruktur, -behandling, -lagring og andre informasjonstjenester","Computing infrastructure, data processing, hosting and other information service activities"
+64,L,Finansieringsvirksomhet og kollektive investeringsfond,"Financial service activities, except insurance and pension funding"
+65,L,"Forsikringsvirksomhet, unntatt trygdeordninger underlagt offentlig forvaltning","Insurance, reinsurance and pension funding, except compulsory social security"
+66,L,Tjenester tilknyttet finansiell virksomhet,Activities auxiliary to financial services and insurance activities
+68,M,Eiendomsvirksomhet,Real estate activities
+69,N,Juridisk og regnskapsmessig tjenesteyting,Legal and accounting activities
+70,N,Hovedkontortjenester og administrativ rådgivning,Activities of head offices and management consultancy
+71,N,"Arkitektvirksomhet og teknisk konsulentvirksomhet, og teknisk prøving og analyse",Architectural and engineering activities; technical testing and analysis
+72,N,Forskning og eksperimentell utvikling,Scientific research and development
+73,N,"Annonse- og reklamevirksomhet, markedsundersøkelser og PR og kommunikasjonstjenester","Activities of advertising, market research and public relations"
+74,N,"Annen faglig, vitenskapelig og teknisk virksomhet","Other professional, scientific and technical activities"
+75,N,Veterinærtjenester,Veterinary activities
+77,O,Utleie- og leasingvirksomhet,Rental and leasing activities
+78,O,Arbeidskrafttjenester,Employment activities
+79,O,Reisebyrå- og reisearrangørvirksomhet og tilknyttede tjenester,"Travel agency, tour operator and other reservation service and related activities"
+80,O,Etterforsknings- og vakttjenester,Investigation and security activities
+81,O,Tjenester tilknyttet eiendomsdrift og beplanting av hager og parkanlegg,Services to buildings and landscape activities
+82,O,Annen forretningsmessig tjenesteyting,"Office administrative, office support and other business support activities"
+84,P,"Offentlig administrasjon og forsvar, og trygdeordninger underlagt offentlig forvaltning",Public administration and defence; compulsory social security
+85,Q,Undervisning,Education
+86,R,Helsetjenester,Human health activities
+87,R,Helse- og omsorgstjenester i institusjoner og andre botilbud,Residential care activities
+88,R,Omsorgs- og sosialtjenester uten botilbud,Social work activities without accommodation
+90,S,Kunstnerisk virksomhet og underholdningsvirksomhet,Arts creation and performing arts activities
+91,S,"Drift av biblioteker, arkiver, museer og annen kulturvirksomhet","Libraries, archives, museums and other cultural activities"
+92,S,Lotteri- og gamblingvirksomhet,Gambling and betting activities
+93,S,"Sports-, fornøyelses- og fritidsaktiviteter",Sports activities and amusement and recreation activities
+94,T,Aktiviteter i medlemsorganisasjoner,Activities of membership organisations
+95,T,"Reparasjon og vedlikehold av datamaskiner, husholdningsvarer, varer til personlig bruk og motorvogner og motorsykler","Repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles"
+96,T,Personlig tjenesteyting,Personal service activities
+97,U,Lønnet arbeid i private husholdninger,Activities of households as employers of domestic personnel
+98,U,Annen vareproduksjon og tjenesteyting i private husholdninger til eget bruk,Undifferentiated goods- and service-producing activities of private households for own use
+99,V,Aktiviteter i internasjonale organisasjoner og organer,Activities of extraterritorial organisations and bodies

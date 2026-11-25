@@ -1,0 +1,182 @@
+# Default configuration. Paths are relative to the repository root.
+paths:
+  data_dir: data
+  landing_dir: data/landing
+  logs_dir: logs
+
+http:
+  user_agent: "foretaksrisiko/0.1 (research)"
+  requests_per_second: 4
+  max_retries: 5
+  timeout_seconds: 60
+  backoff_base_seconds: 1.0
+  backoff_cap_seconds: 60.0
+  workers: 3
+
+brreg:
+  base_url: https://data.brreg.no
+  enheter_bulk_path: /enhetsregisteret/api/enheter/lastned
+  enheter_bulk_accept: application/vnd.brreg.enhetsregisteret.enhet.v2+gzip;charset=UTF-8
+  underenheter_bulk_path: /enhetsregisteret/api/underenheter/lastned
+  underenheter_bulk_accept: application/vnd.brreg.enhetsregisteret.underenhet.v2+gzip;charset=UTF-8
+  roller_bulk_path: /enhetsregisteret/api/roller/totalbestand
+  roller_bulk_accept: application/gzip
+  regnskap_path: /regnskapsregisteret/regnskap/{orgnr}
+  oppdateringer_enheter_path: /enhetsregisteret/api/oppdateringer/enheter
+  oppdateringer_underenheter_path: /enhetsregisteret/api/oppdateringer/underenheter
+  oppdateringer_roller_path: /enhetsregisteret/api/oppdateringer/roller
+
+scope:
+  organisasjonsformer: [AS, ASA]
+  drop_frivillighetsregisteret: true
+
+sample:
+  size: 50000
+  seed: 42
+
+klass:
+  base_url: https://data.ssb.no/api/klass/v1
+  sn2025_version: 3218
+  sn2007_version: 30
+  sn_correspondence_table: 2919
+  fylke_version: 3315
+  kommune_version: 3262
+  fylke_correspondence_table: 2799
+  kommune_correspondence_table: 2774
+
+landing:
+  rows_per_file: 50000
+  regnskap_batch_size: 500
+  # Later snapshots copy accounts from the previous snapshot and fetch again only new companies,
+  # companies with a reported new filing, and this rolling share of the rest.
+  regnskap_refresh_share: 0.1
+
+lakehouse:
+  catalog: workspace
+  local_catalog: spark_catalog
+  schema_prefix: foretaksrisiko_
+  volume_name: snapshots
+  local_warehouse_dir: data/warehouse
+  upload_exclude: [enheter_tekst]
+  bronze_tables:
+    - enheter
+    - underenheter
+    - roller_counts
+    - roller_links
+    - sample
+    - regnskap
+    - regnskap_status
+    - oppdateringer_enheter
+    - oppdateringer_underenheter
+    - oppdateringer_roller
+    - events_enheter
+    - events_roller
+    - events_monthly_all
+    - text_features
+  klass_tables:
+    - sn2025
+    - sn2007
+    - sn_corr_2025_2007
+    - fylke
+    - kommune
+    - fylke_corr_2026_2024
+    - kommune_corr_2026_2024
+
+design:
+  horizon_months: 6
+  retro_offset_months: 6
+  change_windows_months: [6, 12]
+  adverse_lookback_months: 24
+  peer_min_size: 20
+  size_band_quantiles: [0.25, 0.5, 0.75, 0.9]
+  extreme_z: 3.0
+  filing_deadline_month: 8
+  filing_deadline_day: 1
+
+model:
+  split_seed: 42
+  train_share: 0.6
+  valid_share: 0.2
+  seeds: [1, 2, 3, 4, 5]
+  top_shares: [0.01, 0.05]
+  bootstrap_samples: 1000
+  calibration_bins: 10
+  min_group_size: 20
+  iforest_estimators: 300
+  iforest_max_samples: 50000
+  mahalanobis_fit_rows: 20000
+  hgb_grid_learning_rate: [0.05, 0.1]
+  hgb_grid_max_leaf_nodes: [15, 31]
+  hgb_grid_min_samples_leaf: [50, 200]
+  hgb_max_iter: 400
+  shap_rows: 1000
+  experiment_name: foretaksrisiko
+
+quality:
+  mod11_severity: error
+  min_nace_section_share: 0.85
+  min_fylke_coverage: 0.99
+  min_kommune_coverage: 0.99
+  max_future_date_share: 0.0
+
+# Model lifecycle. The registered model lives in the gold schema of the lakehouse catalog.
+registry:
+  model_name: proxy_outcome_hgb
+  layer: gold
+  artifact_path: hgb_calibrated
+  champion_alias: champion
+  challenger_alias: challenger
+  # A challenger is eligible for promotion only if it meets every threshold below on the frozen
+  # validation split. Promotion is then a manual, approved step; rollback moves the alias back.
+  promotion:
+    min_average_precision: 0.10
+    min_precision_top_1pct: 0.05
+    max_brier: 0.02
+    max_expected_calibration_error: 0.02
+    min_positives_valid: 30
+    require_not_worse_than_champion: true
+    relative_tolerance: 0.05
+
+# Monitoring runs on the prospective features of each new snapshot against a reference snapshot
+# (the champion's training snapshot unless another is given). Severity "alert" writes an alert
+# record and fails the alert task, which sends the job email. Severity "warn" is recorded only.
+monitoring:
+  design: prospective
+  psi_bins: 10
+  # A value near a bin edge counts partly on both sides. The band is this share of the
+  # reference's inter-decile range, so a value shared by many companies cannot flip bins.
+  psi_edge_smoothing: 0.02
+  psi_warn: 0.10
+  psi_alert: 0.25
+  missingness_delta_warn: 0.02
+  missingness_delta_alert: 0.05
+  category_share_delta_warn: 0.05
+  category_share_delta_alert: 0.10
+  score_psi_warn: 0.10
+  score_psi_alert: 0.25
+  flag_share: 0.05
+  flag_share_relative_warn: 0.25
+  flag_share_relative_alert: 0.50
+  min_rows: 1000
+  # Retraining is recommended (never performed automatically) when any rule fires:
+  # R1 at least this many features at alert-level PSI,
+  # R2 score PSI or flag share at alert level,
+  # R3 at least this many new fully observed positives since the champion was trained,
+  # R4 the champion is older than this many snapshots.
+  retrain_min_alert_features: 3
+  retrain_max_champion_age_snapshots: 26
+  retrain_min_new_positives: 200
+  # Named threshold sets for demonstrations. Records written under a scenario carry its name.
+  scenarios:
+    simulated_breach:
+      psi_warn: 0.0001
+      psi_alert: 0.0005
+      missingness_delta_warn: 0.0001
+      missingness_delta_alert: 0.0005
+      category_share_delta_warn: 0.0001
+      category_share_delta_alert: 0.0005
+      score_psi_warn: 0.0001
+      score_psi_alert: 0.0005
+      flag_share_relative_warn: 0.001
+      flag_share_relative_alert: 0.005
+      min_rows: 1

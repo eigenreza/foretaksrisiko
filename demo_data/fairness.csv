@@ -1,0 +1,189 @@
+model,group_type,group_value,group_label_no,group_label_en,n,base_rate,flag_rate,precision,per_group_threshold
+hgb_calibrated,age_band,0-2,0-2,0-2,11959,0.004013713521197424,0.07759846140981687,0.0334051724137931,false
+hgb_calibrated,age_band,10+,10+,10+,34683,0.003171582619727244,0.023267883401089873,0.09665427509293681,false
+hgb_calibrated,age_band,2-5,2-5,2-5,15532,0.010880762297192892,0.08575843420036054,0.10585585585585586,false
+hgb_calibrated,age_band,5-10,5-10,5-10,19967,0.006761155907246958,0.05213602444032654,0.11239193083573487,false
+hgb_calibrated,fylke,03,Oslo - Oslove,Oslo - Oslove,18150,0.006391184573002755,0.06137741046831956,0.07989228007181329,false
+hgb_calibrated,fylke,11,Rogaland,Rogaland,7031,0.0036979092589958756,0.035699047077229415,0.08366533864541832,false
+hgb_calibrated,fylke,15,Møre og Romsdal,Møre og Romsdal,3587,0.0030666294954000556,0.04488430443267354,0.055900621118012424,false
+hgb_calibrated,fylke,18,Nordland - Nordlánnda,Nordland - Nordlánnda,3019,0.004306061609804571,0.04604173567406426,0.06474820143884892,false
+hgb_calibrated,fylke,21,Svalbard,Svalbard,52,0.0,0.1346153846153846,0.0,false
+hgb_calibrated,fylke,31,Østfold,Østfold,3566,0.008132361189007292,0.04290521592821088,0.13725490196078433,false
+hgb_calibrated,fylke,32,Akershus,Akershus,9926,0.007253677211364095,0.05802941769091276,0.10416666666666667,false
+hgb_calibrated,fylke,33,Buskerud,Buskerud,3816,0.006027253668763103,0.059748427672955975,0.09210526315789473,false
+hgb_calibrated,fylke,34,Innlandet,Innlandet,4187,0.006687365655600669,0.05708144256030571,0.10460251046025104,false
+hgb_calibrated,fylke,39,Vestfold,Vestfold,3725,0.006442953020134228,0.04590604026845638,0.12280701754385964,false
+hgb_calibrated,fylke,40,Telemark,Telemark,2229,0.00762673844773441,0.04979811574697174,0.11711711711711711,false
+hgb_calibrated,fylke,42,Agder,Agder,4667,0.005999571459181487,0.039854296121705594,0.10215053763440861,false
+hgb_calibrated,fylke,46,Vestland,Vestland,8974,0.004457321149988857,0.04234455092489414,0.08947368421052632,false
+hgb_calibrated,fylke,50,Trøndelag - Trööndelage,Trøndelag - Trööndelage,5972,0.004018754186202277,0.04370395177494977,0.06896551724137931,false
+hgb_calibrated,fylke,55,Troms - Romsa - Tromssa,Troms - Romsa - Tromssa,2086,0.003835091083413231,0.04554170661553212,0.05263157894736842,false
+hgb_calibrated,fylke,56,Finnmark - Finnmárku - Finmarkku,Finnmark - Finnmárku - Finmarkku,1154,0.0025996533795493936,0.03119584055459272,0.05555555555555555,false
+hgb_calibrated,nace_section,A,"Jordbruk, skogbruk og fiske","Agriculture, forestry and fishing",1292,0.003869969040247678,0.029411764705882353,0.05263157894736842,false
+hgb_calibrated,nace_section,B,Bergverksdrift og utvinning,Mining and quarrying,246,0.012195121951219513,0.0040650406504065045,0.0,false
+hgb_calibrated,nace_section,C,Industri,Manufacturing,2648,0.0075528700906344415,0.03209969788519638,0.12941176470588237,false
+hgb_calibrated,nace_section,D,"Elektrisitet, gass og damp","Electricity, gas and steam",378,0.0,0.023809523809523808,0.0,false
+hgb_calibrated,nace_section,E,"Vann, avløp og renovasjon",Water supply and waste,171,0.011695906432748537,0.023391812865497075,0.5,false
+hgb_calibrated,nace_section,F,Bygge- og anleggsvirksomhet,Construction,6887,0.013068099317554814,0.12385654130971395,0.08909730363423213,false
+hgb_calibrated,nace_section,G,Varehandel,Wholesale and retail trade,8227,0.007900814391637291,0.08216846967302784,0.07100591715976332,false
+hgb_calibrated,nace_section,H,Transport og lagring,Transportation and storage,2073,0.014954172696575013,0.12493970091654606,0.10810810810810811,false
+hgb_calibrated,nace_section,I,Overnatting og servering,Accommodation and food service,2525,0.016633663366336635,0.2700990099009901,0.05571847507331378,false
+hgb_calibrated,nace_section,J,Utgivelse og kringkasting,Publishing and broadcasting,1091,0.0036663611365719525,0.010999083409715857,0.16666666666666666,false
+hgb_calibrated,nace_section,K,Telekommunikasjon og IT-tjenester,Telecommunication and IT services,3338,0.006291192330736968,0.03834631515877771,0.1328125,false
+hgb_calibrated,nace_section,L,Finansiell tjenesteyting,Financial and insurance activities,3014,3.3178500331785003E-4,3.3178500331785003E-4,0.0,false
+hgb_calibrated,nace_section,M,Eiendomsvirksomhet,Real estate activities,20920,0.002390057361376673,0.017351816443594646,0.11294765840220386,false
+hgb_calibrated,nace_section,N,"Faglig, vitenskapelig og teknisk tjenesteyting","Professional, scientific and technical",9643,0.004355491029762522,0.034843928238100175,0.09523809523809523,false
+hgb_calibrated,nace_section,O,Forretningsmessig tjenesteyting,Administrative and support services,2959,0.0070969922271037515,0.06860425819533626,0.08866995073891626,false
+hgb_calibrated,nace_section,Q,Undervisning,Education,1454,0.006189821182943604,0.01581843191196699,0.34782608695652173,false
+hgb_calibrated,nace_section,R,Helse- og sosialtjenester,Human health and social work,2235,0.0013422818791946308,0.008501118568232663,0.10526315789473684,false
+hgb_calibrated,nace_section,S,"Kultur, idrett og fritid","Arts, sports and recreation",1369,0.005113221329437546,0.04747991234477721,0.06153846153846154,false
+hgb_calibrated,nace_section,T,Annen tjenesteyting,Other service activities,2011,0.007956240676280457,0.12033814022874192,0.05785123966942149,false
+hgb_calibrated,nace_section,U,Lønnet arbeid i private husholdninger,Households as employers,109,0.0,0.0,,false
+hgb_calibrated,nace_section,missing,Ukjent,Unknown,9544,0.003143336127409891,0.01142078792958927,0.22018348623853212,false
+hgb_calibrated,size_band,0,Uten regnskap,No accounts,7893,0.006208032433802103,0.06524768782465476,0.07766990291262135,false
+hgb_calibrated,size_band,1,Minste firedel,Smallest quarter,18595,0.008980908846464103,0.0687819306265125,0.10711493354182955,false
+hgb_calibrated,size_band,2,Nest minste firedel,Second quarter,18591,0.007422946587058254,0.07605830778333603,0.07637906647807638,false
+hgb_calibrated,size_band,3,Nest største firedel,Third quarter,18452,0.004118794710600477,0.036039453717754175,0.09172932330827067,false
+hgb_calibrated,size_band,4,75 til 90 prosent,75th to 90th percentile,11132,0.001976284584980237,0.016259432267337406,0.07734806629834254,false
+hgb_calibrated,size_band,5,Største tidel,Largest tenth,7478,0.001337255950788981,0.007221182134260497,0.12962962962962962,false
+hgb_calibrated,age_band,0-2,0-2,0-2,11959,0.004013713521197424,0.05000418095158458,0.043478260869565216,true
+hgb_calibrated,age_band,10+,10+,10+,34683,0.003171582619727244,0.05002450768387971,0.05187319884726225,true
+hgb_calibrated,age_band,2-5,2-5,2-5,15532,0.010880762297192892,0.05002575328354365,0.16988416988416988,true
+hgb_calibrated,age_band,5-10,5-10,5-10,19967,0.006761155907246958,0.050032553713627484,0.11711711711711711,true
+hgb_calibrated,fylke,03,Oslo - Oslove,Oslo - Oslove,18150,0.006391184573002755,0.05002754820936639,0.0947136563876652,true
+hgb_calibrated,fylke,11,Rogaland,Rogaland,7031,0.0036979092589958756,0.05006400227563647,0.05965909090909091,true
+hgb_calibrated,fylke,15,Møre og Romsdal,Møre og Romsdal,3587,0.0030666294954000556,0.05018120992472819,0.05,true
+hgb_calibrated,fylke,18,Nordland - Nordlánnda,Nordland - Nordlánnda,3019,0.004306061609804571,0.050016561775422325,0.06622516556291391,true
+hgb_calibrated,fylke,21,Svalbard,Svalbard,52,0.0,0.057692307692307696,0.0,true
+hgb_calibrated,fylke,31,Østfold,Østfold,3566,0.008132361189007292,0.050196298373527765,0.12290502793296089,true
+hgb_calibrated,fylke,32,Akershus,Akershus,9926,0.007253677211364095,0.05007052186177715,0.12072434607645875,true
+hgb_calibrated,fylke,33,Buskerud,Buskerud,3816,0.006027253668763103,0.0500524109014675,0.10471204188481675,true
+hgb_calibrated,fylke,34,Innlandet,Innlandet,4187,0.006687365655600669,0.050155242417005017,0.11428571428571428,true
+hgb_calibrated,fylke,39,Vestfold,Vestfold,3725,0.006442953020134228,0.0502013422818792,0.11229946524064172,true
+hgb_calibrated,fylke,40,Telemark,Telemark,2229,0.00762673844773441,0.05024674742036788,0.11607142857142858,true
+hgb_calibrated,fylke,42,Agder,Agder,4667,0.005999571459181487,0.05013927576601671,0.0811965811965812,true
+hgb_calibrated,fylke,46,Vestland,Vestland,8974,0.004457321149988857,0.050033429908624916,0.0757238307349666,true
+hgb_calibrated,fylke,50,Trøndelag - Trööndelage,Trøndelag - Trööndelage,5972,0.004018754186202277,0.05006697923643671,0.06020066889632107,true
+hgb_calibrated,fylke,55,Troms - Romsa - Tromssa,Troms - Romsa - Tromssa,2086,0.003835091083413231,0.050335570469798654,0.047619047619047616,true
+hgb_calibrated,fylke,56,Finnmark - Finnmárku - Finmarkku,Finnmark - Finnmárku - Finmarkku,1154,0.0025996533795493936,0.05025996533795494,0.034482758620689655,true
+hgb_calibrated,nace_section,A,"Jordbruk, skogbruk og fiske","Agriculture, forestry and fishing",1292,0.003869969040247678,0.05030959752321981,0.03076923076923077,true
+hgb_calibrated,nace_section,B,Bergverksdrift og utvinning,Mining and quarrying,246,0.012195121951219513,0.052845528455284556,0.07692307692307693,true
+hgb_calibrated,nace_section,C,Industri,Manufacturing,2648,0.0075528700906344415,0.05022658610271903,0.09022556390977443,true
+hgb_calibrated,nace_section,D,"Elektrisitet, gass og damp","Electricity, gas and steam",378,0.0,0.05026455026455026,0.0,true
+hgb_calibrated,nace_section,E,"Vann, avløp og renovasjon",Water supply and waste,171,0.011695906432748537,0.05263157894736842,0.2222222222222222,true
+hgb_calibrated,nace_section,F,Bygge- og anleggsvirksomhet,Construction,6887,0.013068099317554814,0.050094380717293455,0.20579710144927535,true
+hgb_calibrated,nace_section,G,Varehandel,Wholesale and retail trade,8227,0.007900814391637291,0.05007900814391637,0.11165048543689321,true
+hgb_calibrated,nace_section,H,Transport og lagring,Transportation and storage,2073,0.014954172696575013,0.05016883743367101,0.21153846153846154,true
+hgb_calibrated,nace_section,I,Overnatting og servering,Accommodation and food service,2525,0.016633663366336635,0.0502970297029703,0.2125984251968504,true
+hgb_calibrated,nace_section,J,Utgivelse og kringkasting,Publishing and broadcasting,1091,0.0036663611365719525,0.05041246562786435,0.05454545454545454,true
+hgb_calibrated,nace_section,K,Telekommunikasjon og IT-tjenester,Telecommunication and IT services,3338,0.006291192330736968,0.050029958058717794,0.10179640718562874,true
+hgb_calibrated,nace_section,L,Finansiell tjenesteyting,Financial and insurance activities,3014,3.3178500331785003E-4,0.05009953550099536,0.0,true
+hgb_calibrated,nace_section,M,Eiendomsvirksomhet,Real estate activities,20920,0.002390057361376673,0.05,0.04206500956022945,true
+hgb_calibrated,nace_section,N,"Faglig, vitenskapelig og teknisk tjenesteyting","Professional, scientific and technical",9643,0.004355491029762522,0.050088146842269005,0.07039337474120083,true
+hgb_calibrated,nace_section,O,Forretningsmessig tjenesteyting,Administrative and support services,2959,0.0070969922271037515,0.050016897600540726,0.10135135135135136,true
+hgb_calibrated,nace_section,Q,Undervisning,Education,1454,0.006189821182943604,0.050206327372764786,0.1095890410958904,true
+hgb_calibrated,nace_section,R,Helse- og sosialtjenester,Human health and social work,2235,0.0013422818791946308,0.05011185682326622,0.026785714285714284,true
+hgb_calibrated,nace_section,S,"Kultur, idrett og fritid","Arts, sports and recreation",1369,0.005113221329437546,0.050401753104455806,0.057971014492753624,true
+hgb_calibrated,nace_section,T,Annen tjenesteyting,Other service activities,2011,0.007956240676280457,0.05022376926902039,0.13861386138613863,true
+hgb_calibrated,nace_section,U,Lønnet arbeid i private husholdninger,Households as employers,109,0.0,0.05504587155963303,0.0,true
+hgb_calibrated,nace_section,missing,Ukjent,Unknown,9544,0.003143336127409891,0.05008382229673093,0.056485355648535567,true
+hgb_calibrated,size_band,0,Uten regnskap,No accounts,7893,0.006208032433802103,0.05004434308881287,0.10126582278481013,true
+hgb_calibrated,size_band,1,Minste firedel,Smallest quarter,18595,0.008980908846464103,0.05001344447432105,0.13978494623655913,true
+hgb_calibrated,size_band,2,Nest minste firedel,Second quarter,18591,0.007422946587058254,0.05002420526060997,0.110752688172043,true
+hgb_calibrated,size_band,3,Nest største firedel,Third quarter,18452,0.004118794710600477,0.050021677866897894,0.06717226435536294,true
+hgb_calibrated,size_band,4,75 til 90 prosent,75th to 90th percentile,11132,0.001976284584980237,0.050035932446999644,0.03411131059245961,true
+hgb_calibrated,size_band,5,Største tidel,Largest tenth,7478,0.001337255950788981,0.05001337255950789,0.026737967914438502,true
+isolation_forest,age_band,0-2,0-2,0-2,11959,0.004013713521197424,0.012877330880508403,0.012987012987012988,false
+isolation_forest,age_band,10+,10+,10+,34683,0.003171582619727244,0.08246114811290835,0.006643356643356644,false
+isolation_forest,age_band,2-5,2-5,2-5,15532,0.010880762297192892,0.028650527942312643,0.033707865168539325,false
+isolation_forest,age_band,5-10,5-10,5-10,19967,0.006761155907246958,0.032503630991135374,0.026194144838212634,false
+isolation_forest,fylke,03,Oslo - Oslove,Oslo - Oslove,18150,0.006391184573002755,0.06606060606060606,0.011676396997497914,false
+isolation_forest,fylke,11,Rogaland,Rogaland,7031,0.0036979092589958756,0.044232683828758355,0.012861736334405145,false
+isolation_forest,fylke,15,Møre og Romsdal,Møre og Romsdal,3587,0.0030666294954000556,0.062168943406746585,0.004484304932735426,false
+isolation_forest,fylke,18,Nordland - Nordlánnda,Nordland - Nordlánnda,3019,0.004306061609804571,0.04769791321629679,0.006944444444444444,false
+isolation_forest,fylke,21,Svalbard,Svalbard,52,0.0,0.038461538461538464,0.0,false
+isolation_forest,fylke,31,Østfold,Østfold,3566,0.008132361189007292,0.040381379697139654,0.020833333333333332,false
+isolation_forest,fylke,32,Akershus,Akershus,9926,0.007253677211364095,0.045133991537376586,0.024553571428571428,false
+isolation_forest,fylke,33,Buskerud,Buskerud,3816,0.006027253668763103,0.0440251572327044,0.011904761904761904,false
+isolation_forest,fylke,34,Innlandet,Innlandet,4187,0.006687365655600669,0.03678051110580368,0.01948051948051948,false
+isolation_forest,fylke,39,Vestfold,Vestfold,3725,0.006442953020134228,0.040268456375838924,0.02,false
+isolation_forest,fylke,40,Telemark,Telemark,2229,0.00762673844773441,0.040376850605652756,0.011111111111111112,false
+isolation_forest,fylke,42,Agder,Agder,4667,0.005999571459181487,0.035568887936575956,0.018072289156626505,false
+isolation_forest,fylke,46,Vestland,Vestland,8974,0.004457321149988857,0.054825050144862934,0.01016260162601626,false
+isolation_forest,fylke,50,Trøndelag - Trööndelage,Trøndelag - Trööndelage,5972,0.004018754186202277,0.04973208305425318,0.006734006734006734,false
+isolation_forest,fylke,55,Troms - Romsa - Tromssa,Troms - Romsa - Tromssa,2086,0.003835091083413231,0.04458293384467881,0.0,false
+isolation_forest,fylke,56,Finnmark - Finnmárku - Finmarkku,Finnmark - Finnmárku - Finmarkku,1154,0.0025996533795493936,0.02339688041594454,0.0,false
+isolation_forest,nace_section,A,"Jordbruk, skogbruk og fiske","Agriculture, forestry and fishing",1292,0.003869969040247678,0.07972136222910217,0.0,false
+isolation_forest,nace_section,B,Bergverksdrift og utvinning,Mining and quarrying,246,0.012195121951219513,0.23577235772357724,0.017241379310344827,false
+isolation_forest,nace_section,C,Industri,Manufacturing,2648,0.0075528700906344415,0.13293051359516617,0.014204545454545454,false
+isolation_forest,nace_section,D,"Elektrisitet, gass og damp","Electricity, gas and steam",378,0.0,0.21164021164021163,0.0,false
+isolation_forest,nace_section,E,"Vann, avløp og renovasjon",Water supply and waste,171,0.011695906432748537,0.1111111111111111,0.0,false
+isolation_forest,nace_section,F,Bygge- og anleggsvirksomhet,Construction,6887,0.013068099317554814,0.045302744300856686,0.028846153846153848,false
+isolation_forest,nace_section,G,Varehandel,Wholesale and retail trade,8227,0.007900814391637291,0.0656375349459098,0.011111111111111112,false
+isolation_forest,nace_section,H,Transport og lagring,Transportation and storage,2073,0.014954172696575013,0.09985528219971057,0.01932367149758454,false
+isolation_forest,nace_section,I,Overnatting og servering,Accommodation and food service,2525,0.016633663366336635,0.05148514851485148,0.015384615384615385,false
+isolation_forest,nace_section,J,Utgivelse og kringkasting,Publishing and broadcasting,1091,0.0036663611365719525,0.07057745187901009,0.025974025974025976,false
+isolation_forest,nace_section,K,Telekommunikasjon og IT-tjenester,Telecommunication and IT services,3338,0.006291192330736968,0.05212702216896345,0.005747126436781609,false
+isolation_forest,nace_section,L,Finansiell tjenesteyting,Financial and insurance activities,3014,3.3178500331785003E-4,0.037491705374917056,0.0,false
+isolation_forest,nace_section,M,Eiendomsvirksomhet,Real estate activities,20920,0.002390057361376673,0.046032504780114725,0.01142263759086189,false
+isolation_forest,nace_section,N,"Faglig, vitenskapelig og teknisk tjenesteyting","Professional, scientific and technical",9643,0.004355491029762522,0.03567354557710256,0.01744186046511628,false
+isolation_forest,nace_section,O,Forretningsmessig tjenesteyting,Administrative and support services,2959,0.0070969922271037515,0.05069280162216965,0.0,false
+isolation_forest,nace_section,Q,Undervisning,Education,1454,0.006189821182943604,0.05639614855570839,0.0,false
+isolation_forest,nace_section,R,Helse- og sosialtjenester,Human health and social work,2235,0.0013422818791946308,0.028187919463087248,0.015873015873015872,false
+isolation_forest,nace_section,S,"Kultur, idrett og fritid","Arts, sports and recreation",1369,0.005113221329437546,0.04309715120525932,0.01694915254237288,false
+isolation_forest,nace_section,T,Annen tjenesteyting,Other service activities,2011,0.007956240676280457,0.0313276976628543,0.015873015873015872,false
+isolation_forest,nace_section,U,Lønnet arbeid i private husholdninger,Households as employers,109,0.0,0.3486238532110092,0.0,false
+isolation_forest,nace_section,missing,Ukjent,Unknown,9544,0.003143336127409891,0.01865046102263202,0.016853932584269662,false
+isolation_forest,size_band,0,Uten regnskap,No accounts,7893,0.006208032433802103,0.004561003420752566,0.05555555555555555,false
+isolation_forest,size_band,1,Minste firedel,Smallest quarter,18595,0.008980908846464103,0.026136058080129067,0.0411522633744856,false
+isolation_forest,size_band,2,Nest minste firedel,Second quarter,18591,0.007422946587058254,0.01705126136302512,0.04100946372239748,false
+isolation_forest,size_band,3,Nest største firedel,Third quarter,18452,0.004118794710600477,0.02888575764144808,0.0150093808630394,false
+isolation_forest,size_band,4,75 til 90 prosent,75th to 90th percentile,11132,0.001976284584980237,0.05740208408192598,0.006259780907668232,false
+isolation_forest,size_band,5,Største tidel,Largest tenth,7478,0.001337255950788981,0.2804225728804493,0.002861230329041488,false
+isolation_forest,age_band,0-2,0-2,0-2,11959,0.004013713521197424,0.05000418095158458,0.008361204013377926,true
+isolation_forest,age_band,10+,10+,10+,34683,0.003171582619727244,0.05002450768387971,0.009221902017291067,true
+isolation_forest,age_band,2-5,2-5,2-5,15532,0.010880762297192892,0.05002575328354365,0.023166023166023165,true
+isolation_forest,age_band,5-10,5-10,5-10,19967,0.006761155907246958,0.050032553713627484,0.02002002002002002,true
+isolation_forest,fylke,03,Oslo - Oslove,Oslo - Oslove,18150,0.006391184573002755,0.05002754820936639,0.012114537444933921,true
+isolation_forest,fylke,11,Rogaland,Rogaland,7031,0.0036979092589958756,0.05006400227563647,0.011363636363636364,true
+isolation_forest,fylke,15,Møre og Romsdal,Møre og Romsdal,3587,0.0030666294954000556,0.05018120992472819,0.005555555555555556,true
+isolation_forest,fylke,18,Nordland - Nordlánnda,Nordland - Nordlánnda,3019,0.004306061609804571,0.050016561775422325,0.006622516556291391,true
+isolation_forest,fylke,21,Svalbard,Svalbard,52,0.0,0.057692307692307696,0.0,true
+isolation_forest,fylke,31,Østfold,Østfold,3566,0.008132361189007292,0.050196298373527765,0.01675977653631285,true
+isolation_forest,fylke,32,Akershus,Akershus,9926,0.007253677211364095,0.05007052186177715,0.022132796780684104,true
+isolation_forest,fylke,33,Buskerud,Buskerud,3816,0.006027253668763103,0.0500524109014675,0.010471204188481676,true
+isolation_forest,fylke,34,Innlandet,Innlandet,4187,0.006687365655600669,0.050155242417005017,0.014285714285714285,true
+isolation_forest,fylke,39,Vestfold,Vestfold,3725,0.006442953020134228,0.0502013422818792,0.0213903743315508,true
+isolation_forest,fylke,40,Telemark,Telemark,2229,0.00762673844773441,0.05024674742036788,0.008928571428571428,true
+isolation_forest,fylke,42,Agder,Agder,4667,0.005999571459181487,0.05013927576601671,0.017094017094017096,true
+isolation_forest,fylke,46,Vestland,Vestland,8974,0.004457321149988857,0.050033429908624916,0.011135857461024499,true
+isolation_forest,fylke,50,Trøndelag - Trööndelage,Trøndelag - Trööndelage,5972,0.004018754186202277,0.05006697923643671,0.006688963210702341,true
+isolation_forest,fylke,55,Troms - Romsa - Tromssa,Troms - Romsa - Tromssa,2086,0.003835091083413231,0.050335570469798654,0.0,true
+isolation_forest,fylke,56,Finnmark - Finnmárku - Finmarkku,Finnmark - Finnmárku - Finmarkku,1154,0.0025996533795493936,0.05025996533795494,0.0,true
+isolation_forest,nace_section,A,"Jordbruk, skogbruk og fiske","Agriculture, forestry and fishing",1292,0.003869969040247678,0.05030959752321981,0.0,true
+isolation_forest,nace_section,B,Bergverksdrift og utvinning,Mining and quarrying,246,0.012195121951219513,0.052845528455284556,0.0,true
+isolation_forest,nace_section,C,Industri,Manufacturing,2648,0.0075528700906344415,0.05022658610271903,0.022556390977443608,true
+isolation_forest,nace_section,D,"Elektrisitet, gass og damp","Electricity, gas and steam",378,0.0,0.05026455026455026,0.0,true
+isolation_forest,nace_section,E,"Vann, avløp og renovasjon",Water supply and waste,171,0.011695906432748537,0.05263157894736842,0.0,true
+isolation_forest,nace_section,F,Bygge- og anleggsvirksomhet,Construction,6887,0.013068099317554814,0.050094380717293455,0.02608695652173913,true
+isolation_forest,nace_section,G,Varehandel,Wholesale and retail trade,8227,0.007900814391637291,0.05007900814391637,0.012135922330097087,true
+isolation_forest,nace_section,H,Transport og lagring,Transportation and storage,2073,0.014954172696575013,0.05016883743367101,0.028846153846153848,true
+isolation_forest,nace_section,I,Overnatting og servering,Accommodation and food service,2525,0.016633663366336635,0.0502970297029703,0.015748031496062992,true
+isolation_forest,nace_section,J,Utgivelse og kringkasting,Publishing and broadcasting,1091,0.0036663611365719525,0.05041246562786435,0.03636363636363636,true
+isolation_forest,nace_section,K,Telekommunikasjon og IT-tjenester,Telecommunication and IT services,3338,0.006291192330736968,0.050029958058717794,0.005988023952095809,true
+isolation_forest,nace_section,L,Finansiell tjenesteyting,Financial and insurance activities,3014,3.3178500331785003E-4,0.05009953550099536,0.0,true
+isolation_forest,nace_section,M,Eiendomsvirksomhet,Real estate activities,20920,0.002390057361376673,0.05,0.010516252390057362,true
+isolation_forest,nace_section,N,"Faglig, vitenskapelig og teknisk tjenesteyting","Professional, scientific and technical",9643,0.004355491029762522,0.050088146842269005,0.014492753623188406,true
+isolation_forest,nace_section,O,Forretningsmessig tjenesteyting,Administrative and support services,2959,0.0070969922271037515,0.050016897600540726,0.0,true
+isolation_forest,nace_section,Q,Undervisning,Education,1454,0.006189821182943604,0.050206327372764786,0.0,true
+isolation_forest,nace_section,R,Helse- og sosialtjenester,Human health and social work,2235,0.0013422818791946308,0.05011185682326622,0.017857142857142856,true
+isolation_forest,nace_section,S,"Kultur, idrett og fritid","Arts, sports and recreation",1369,0.005113221329437546,0.050401753104455806,0.014492753623188406,true
+isolation_forest,nace_section,T,Annen tjenesteyting,Other service activities,2011,0.007956240676280457,0.05022376926902039,0.009900990099009901,true
+isolation_forest,nace_section,U,Lønnet arbeid i private husholdninger,Households as employers,109,0.0,0.05504587155963303,0.0,true
+isolation_forest,nace_section,missing,Ukjent,Unknown,9544,0.003143336127409891,0.05008382229673093,0.014644351464435146,true
+isolation_forest,size_band,0,Uten regnskap,No accounts,7893,0.006208032433802103,0.05004434308881287,0.005063291139240506,true
+isolation_forest,size_band,1,Minste firedel,Smallest quarter,18595,0.008980908846464103,0.05001344447432105,0.03225806451612903,true
+isolation_forest,size_band,2,Nest minste firedel,Second quarter,18591,0.007422946587058254,0.05002420526060997,0.01935483870967742,true
+isolation_forest,size_band,3,Nest største firedel,Third quarter,18452,0.004118794710600477,0.050021677866897894,0.014084507042253521,true
+isolation_forest,size_band,4,75 til 90 prosent,75th to 90th percentile,11132,0.001976284584980237,0.050035932446999644,0.00718132854578097,true
+isolation_forest,size_band,5,Største tidel,Largest tenth,7478,0.001337255950788981,0.05001337255950789,0.00267379679144385,true
